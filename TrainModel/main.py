@@ -29,7 +29,7 @@ model.train(
 
     # Performance
     workers=12,
-    cache="disk",
+    cache=True,
 
     val=True,
     plots=True,
